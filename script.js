@@ -1,5 +1,14 @@
 
-console.log(moment());
+//Display Dynamic Time on Page
+function displayTime() {
+    let currentTime = moment().format('MMMM Do YYYY, HH:mm:ss');
+    $("#currentDay").text(currentTime);
+};
+function startTime() {
+    setInterval(displayTime, 1000)
+}
+startTime()
+
 
 
 
