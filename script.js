@@ -9,10 +9,115 @@ function startTime() {
 }
 startTime()
 
+//Color coordinate time blocks for past/present/future
+function colorCoordinate() {
+    let timeHours = moment().format('HH');
+
+    if (timeHours == 08) {
+        $("#t8").addClass("present")
+    }
+    else if (timeHours > 08) {
+        $("#t8").addClass("past")
+    }
+    else {
+        $("#t8").addClass("future")
+    }
+    if (timeHours == 09) {
+        $("#t9").addClass("present")
+    }
+    else if (timeHours > 09) {
+        $("#t9").addClass("past")
+    }
+    else {
+        $("#t9").addClass("future")
+    }
+    if (timeHours == 10) {
+        $("#t10").addClass("present")
+    }
+    else if (timeHours > 10) {
+        $("#t10").addClass("past")
+    }
+    else {
+        $("#t10").addClass("future")
+    }
+    if (timeHours == 11) {
+        $("#t11").addClass("present")
+    }
+    else if (timeHours > 11) {
+        $("#t11").addClass("past")
+    }
+    else {
+        $("#t11").addClass("future")
+    }
+    if (timeHours == 12) {
+        $("#t12").addClass("present")
+    }
+    else if (timeHours > 12) {
+        $("#t12").addClass("past")
+    }
+    else {
+        $("#t12").addClass("future")
+    }
+    if (timeHours == 13) {
+        $("#t13").addClass("present")
+    }
+    else if (timeHours > 13) {
+        $("#t13").addClass("past")
+    }
+    else {
+        $("#t13").addClass("future")
+    }
+    if (timeHours == 14) {
+        $("#t14").addClass("present")
+    }
+    else if (timeHours > 14) {
+        $("#t14").addClass("past")
+    }
+    else {
+        $("#t14").addClass("future")
+    }
+    if (timeHours == 15) {
+        $("#t15").addClass("present")
+    }
+    else if (timeHours > 15) {
+        $("#t15").addClass("past")
+    }
+    else {
+        $("#t15").addClass("future")
+    }
+    if (timeHours == 16) {
+        $("#t16").addClass("present")
+    }
+    else if (timeHours > 16) {
+        $("#t16").addClass("past")
+    }
+    else {
+        $("#t16").addClass("future")
+    }
+    if (timeHours == 17) {
+        $("#t17").addClass("present")
+    }
+    else if (timeHours > 17) {
+        $("#t17").addClass("past")
+    }
+    else {
+        $("#t17").addClass("future")
+    }
+    if (timeHours == 18) {
+        $("#t18").addClass("present")
+    }
+    else if (timeHours > 18) {
+        $("#t18").addClass("past")
+    }
+    else {
+        $("#t18").addClass("future")
+    }
+}
+colorCoordinate()
 
 
 
-// Step 1
+// ****************Step 1*******************************
 // - What is the Step
 // - Display current date/time at top of page
 // - Why am i going to do it
@@ -28,7 +133,7 @@ startTime()
 // - How am I going to do it
 // - Use bootstrap rows/columns
 //
-// Step 3
+// ****************Step 3*******************************
 // - What is the Step
 // - Set timeblocks to change colors as time passes
 // - Why am i going to do it
