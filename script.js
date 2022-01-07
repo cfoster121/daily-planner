@@ -116,6 +116,52 @@ function colorCoordinate() {
 colorCoordinate()
 
 
+//On click of each save button, text area for associated time block is stored into unique local storage area specific to time
+$("#s08").click(function(){
+    let taskValue = $("#t8").val();
+    localStorage.setItem("Task08", taskValue);
+});
+$("#s09").click(function(){
+    let taskValue = $("#t9").val();
+    localStorage.setItem("Task09", taskValue);
+});
+$("#s10").click(function(){
+    let taskValue = $("#t10").val();
+    localStorage.setItem("Task10", taskValue);
+});
+$("#s11").click(function(){
+    let taskValue = $("#t11").val();
+    localStorage.setItem("Task11", taskValue);
+});
+$("#s12").click(function(){
+    let taskValue = $("#t12").val();
+    localStorage.setItem("Task12", taskValue);
+});
+$("#s13").click(function(){
+    let taskValue = $("#t13").val();
+    localStorage.setItem("Task13", taskValue);
+});
+$("#s14").click(function(){
+    let taskValue = $("#t14").val();
+    localStorage.setItem("Task14", taskValue);
+});
+$("#s15").click(function(){
+    let taskValue = $("#t15").val();
+    localStorage.setItem("Task15", taskValue);
+});
+$("#s16").click(function(){
+    let taskValue = $("#t16").val();
+    localStorage.setItem("Task16", taskValue);
+});
+$("#s17").click(function(){
+    let taskValue = $("#t17").val();
+    localStorage.setItem("Task17", taskValue);
+});
+$("#s18").click(function(){
+    let taskValue = $("#t18").val();
+    localStorage.setItem("Task18", taskValue);
+});
+
 
 // ****************Step 1*******************************
 // - What is the Step
@@ -141,15 +187,7 @@ colorCoordinate()
 // - How am I going to do it
 // - Set up function relating each time block to change color based on current time displayed in original dynamic date/time function
 //
-// Step 4
-// - What is the Step
-// - Create list items when clicking into time blocks
-// - Why am i going to do it
-// - Assign tasks to certain times
-// - How am I going to do it
-// - Use jquery ui widgets to make sections contain clickable boxes that accept string values
-//
-// Step 5
+// ****************Step 4*******************************
 // - What is the Step
 // - Save tasks when clicking save button
 // - Why am i going to do it
@@ -157,7 +195,7 @@ colorCoordinate()
 // - How am I going to do it
 // - Create sections in local storage corresponding to time block sections that store data entered in clickable boxes from step 4
 //
-// Step 6
+// Step 5
 // - What is the Step
 // - Keep saved tasks on page on refresh 
 // - Why am i going to do it
