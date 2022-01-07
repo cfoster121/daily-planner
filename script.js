@@ -1,4 +1,7 @@
 
+console.log(moment());
+
+
 
 // Step 1
 // - What is the Step
@@ -8,7 +11,7 @@
 // - How am I going to do it
 // - Moment.js with setinterval function to display dynamic date/time
 //
-// Step 2
+// ****************Step 2*******************************
 // - What is the Step
 // - Create time blocks on page from 0800 to 1800 (10 blocks)
 // - Why am i going to do it 
