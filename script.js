@@ -115,6 +115,20 @@ function colorCoordinate() {
 }
 colorCoordinate()
 
+//Show local storage values in time blocks on page load
+$("#t08").val(window.localStorage.getItem("Task08"));
+$("#t09").val(window.localStorage.getItem("Task09"));
+$("#t10").val(window.localStorage.getItem("Task10"));
+$("#t11").val(window.localStorage.getItem("Task11"));
+$("#t12").val(window.localStorage.getItem("Task12"));
+$("#t13").val(window.localStorage.getItem("Task13"));
+$("#t14").val(window.localStorage.getItem("Task14"));
+$("#t15").val(window.localStorage.getItem("Task15"));
+$("#t16").val(window.localStorage.getItem("Task16"));
+$("#t17").val(window.localStorage.getItem("Task17"));
+$("#t18").val(window.localStorage.getItem("Task18"));
+
+
 
 //On click of each save button, text area for associated time block is stored into unique local storage area specific to time
 $("#s08").click(function(){
