@@ -14,8 +14,8 @@ The page shows working hours divided up into 1 hour incriments, color coded base
 
 
 ## Essential Code
-![GIF](images/HW5-1.gif)
-![IMG](images/HW5-3.png)
+*![GIF](images/HW5-1.gif)
+*![IMG](images/HW5-3.png)
 
 
 ## Built With
