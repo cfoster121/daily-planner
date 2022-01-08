@@ -2,6 +2,7 @@
 
 The page shows working hours divided up into 1 hour incriments, color coded based on past hours, current hours, and future hours. User is able to input tasks into each hourly block and save them to local storage. Tasks will remain on the page with page refresh. Current date and time is displayed at the top of the page.
 
+
 ## Getting Started
 
 * User will enter page and see time blocks for hours 0800-1800
@@ -13,8 +14,8 @@ The page shows working hours divided up into 1 hour incriments, color coded base
 
 
 ## Essential Code
-***images/gifs
-
+[GIF](images/HW5-1.gif)
+[IMG](images/HW5-3.png)
 
 
 ## Built With
@@ -36,8 +37,6 @@ The page shows working hours divided up into 1 hour incriments, color coded base
 - [Link to Portfolio Site](https://cfoster121.github.io/homework2/)
 - [Link to Github](https://github.com/cfoster121)
 - [Link to LinkedIn](https://www.linkedin.com/in/courtney-foster-0b364575/)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 ## Acknowledgments
