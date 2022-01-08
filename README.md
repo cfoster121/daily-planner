@@ -41,9 +41,7 @@ The page shows working hours divided up into 1 hour incriments, color coded base
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+
 * [W3 Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
 * [Gif Application](https://gifox.io/)
